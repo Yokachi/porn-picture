@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yokachi/r34.api.git"
+    "url": "git+https://github.com/Yokachi/porn-picture.git"
   },
   "keywords": [
     "api",
@@ -25,9 +25,9 @@
   "author": "Yokachi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yokachi/r34.api/issues"
+    "url": "https://github.com/Yokachi/porn-picture/issues"
   },
-  "homepage": "https://github.com/Yokachi/r34.api#readme",
+  "homepage": "https://github.com/Yokachi/porn-picture#readme",
   "dependencies": {
     "dabi-images": "^2.7.5",
     "node-fetch": "^2.6.7",
