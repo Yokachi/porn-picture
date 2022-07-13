@@ -1,6 +1,6 @@
 # This module
 
-## name allow you to shearch Porn/hentai/r34 content with a symple systeme and a big API
+## porn-picture allow you to shearch Porn/hentai/r34 content with a symple systeme and a big API
 
 <br>
 <br>
@@ -10,7 +10,7 @@
 <br>
 
 ```js
-const name = require('name')
+const pornpic = require('porn-picture')
 ```
 
 <br>
@@ -21,19 +21,19 @@ const name = require('name')
 <br>
 
 ```js
-const name = require('name')
+const pornpic = require('porn-picture')
 
 async function getImage() {
-    let random = await name.nsfw.random()
-    let thighs = await name.nsfw.thighs()
-    let ass = await name.nsfw.ass()
-    let panties = await name.nsfw.panties()
-    let cosplay = await name.nsfw.cosplay()
-    let pussy = await name.nsfw.pussy()
-    let teen = await name.nsfw.teen()
-    let catGirl = await name.nsfw.catGirl()
-    let rule34 = await name.hentai.rule34()
-    let hentai = await name.hentai.random()
+    let random = await pornpic.nsfw.random()
+    let thighs = await pornpic.nsfw.thighs()
+    let ass = await pornpic.nsfw.ass()
+    let panties = await pornpic.nsfw.panties()
+    let cosplay = await pornpic.nsfw.cosplay()
+    let pussy = await pornpic.nsfw.pussy()
+    let teen = await pornpic.nsfw.teen()
+    let catGirl = await pornpic.nsfw.catGirl()
+    let rule34 = await pornpic.hentai.rule34()
+    let hentai = await pornpic.hentai.random()
     console.log(random,thighs,ass,cosplay,pussy,teen,catGirl,rule34,hentai)
 }
 
